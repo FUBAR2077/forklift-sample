@@ -8,7 +8,7 @@ public class Lift : MonoBehaviour
 
 	[SerializeField] private float maxDistanceDelta;
 	
-	private void Update()
+	private void FixedUpdate()
 	{
 		if (Input.GetKey(KeyCode.LeftShift))
 		{

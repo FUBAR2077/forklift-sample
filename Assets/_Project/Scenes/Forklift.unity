@@ -210,7 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 67697242}
-  _torque: 10
+  _torque: 12
 --- !u!136 &67697244
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -537,7 +537,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 139945612}
-  _torque: 10
+  _torque: 12
 --- !u!136 &139945614
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -708,7 +708,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 152072168}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -777,7 +777,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 192019162}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -918,7 +918,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261110292}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 400489731}
-  _torque: 10
+  _torque: 12
 --- !u!136 &400489733
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1199,7 +1199,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 444842033}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1438,7 +1438,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 470658177}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -1536,7 +1536,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 501334685}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1977,7 +1977,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 842338700}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2466,7 +2466,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1061851249}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -2550,7 +2550,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1081045339}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2955,7 +2955,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1478175025}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -3124,7 +3124,7 @@ GameObject:
   - component: {fileID: 1594653612}
   - component: {fileID: 1594653616}
   m_Layer: 7
-  m_Name: MiddleAxle
+  m_Name: ForkliftAxle
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3474,7 +3474,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _rigidbody: {fileID: 1787755259}
-  _torque: 10
+  _torque: 12
 --- !u!59 &1787755261
 HingeJoint:
   m_ObjectHideFlags: 0
@@ -3538,8 +3538,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820848934}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -13.03, y: 1.6, z: 0}
-  m_LocalScale: {x: 3.8833, y: 3.672851, z: 4.1094}
+  m_LocalPosition: {x: -12.16, y: 1.6, z: 0}
+  m_LocalScale: {x: 1.5349519, y: 3.672851, z: 4.1094}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 729917927}
@@ -3552,7 +3552,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1820848934}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 8d59feb48d45f8746836059599499836, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2

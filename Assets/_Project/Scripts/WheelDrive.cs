@@ -7,7 +7,7 @@ public class WheelDrive : MonoBehaviour
 	
 	private const float _maxAngularVelocity = 10;
 	
-	private void Update()
+	private void FixedUpdate()
 	{
 		if (Input.GetKey(KeyCode.W))
 		{
@@ -19,7 +19,7 @@ public class WheelDrive : MonoBehaviour
 			Backward();
 		}
 
-		if (Input.GetKeyDown(KeyCode.Space))
+		if (Input.GetKey(KeyCode.Space))
 		{
 			Brake();
 		}

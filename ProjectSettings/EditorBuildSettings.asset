@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/_Project/Scenes/Forklift.unity
+    guid: 68a1a2adf7e273d489b6000d365a3419
   m_configObjects: {}
